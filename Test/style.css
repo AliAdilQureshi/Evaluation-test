@@ -1,0 +1,329 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(174, 169, 163);
+    background-color: rgba(238, 242, 248, 1);
+}
+
+
+.box {
+    position: relative;
+  width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.box1 {
+
+    height: auto;
+   
+     background-color: aliceblue;
+    
+     clip-path: polygon(75% 0%, 90% 52%, 75% 100%, 0% 100%, 9% 53%, 0% 0%);
+
+
+   
+
+    
+     transition: all 0.7s ease;
+    }
+.card1{
+width: 24%;
+position: absolute;
+left: 4%;
+width: 24%;
+    height: auto;
+   
+     background-color: aliceblue;
+     clip-path: polygon(0% 0%, 75% 0%, 93% 51%, 75% 100%, 0% 100%);
+     transition: all 0.7s ease;
+}
+.card2{
+width: 24%;
+position: absolute;
+left: 22%;
+background-color: rgb(32, 31, 31);
+
+}
+.card3{
+width: 24%;
+position: absolute;
+left: 40%;
+}
+.card4{
+width: 24%;
+position: absolute;
+left: 58%;
+}
+.card5{
+width: 24%;
+position: absolute;
+left: 76%;
+width: 24%;
+height: auto;
+background-color: aliceblue;
+clip-path: polygon(75% 0%, 76% 51%, 75% 100%, 0% 100%, 10% 53%, 0% 0%);
+
+}
+
+.row1{
+display: flex;
+justify-content: space-between;
+
+
+}
+.c1{
+width: 36%;
+
+color:   rgba(242, 183, 96, 1);
+
+font-size: 26px;
+font-weight: 700;
+}
+.c2{
+width: 40%;
+padding: 20px 40px;
+}
+.c2text{
+color: rgba(25, 26, 27, 1);
+font-size: 18px;
+}
+
+.button1{
+color:   rgba(242, 183, 96, 1);
+text-decoration: none;
+border: none;
+display: inline-block;
+cursor: pointer;
+font-size: 18px;
+font-weight: 600;
+}
+
+.text{
+padding: 0 0 0 10px;
+color: rgba(45, 116, 142, 1);
+font-size: 18px;
+font-weight: 600;
+font-family: Klavika Basic;
+
+
+}
+.container{
+width: 80%;
+
+margin: 10px auto;
+}
+.icon2{
+text-align: center;
+font-size: 40px;
+line-height: 280px;
+padding: 20px 50px 0px 0px;
+
+background-color: rgb(48, 48, 48);
+
+}
+.icon4{
+text-align: center;
+font-size: 40px;
+line-height: 280px;
+padding: 20px 50px 0px 0px;
+
+background-color: rgb(48, 48, 48);
+
+}
+.icon{
+text-align: center;
+font-size: 40px;
+line-height: 280px;
+padding: 20px 50px 0px 0px;
+
+background-color: orangered;
+background-color: rgba(242, 183, 96, 1)
+;
+
+}
+.he{
+height: 280px;
+}
+.he1{
+height: 65px!important;
+padding: 20px 0px;
+background-color: blue;
+background-color: aliceblue;
+text-align: center;
+padding: 20px 52px 20px 0px;
+}
+.ss1{
+display: inline-block;
+height: 180px!important;
+
+
+background-color: blue;
+background-color: aliceblue;
+padding: 0px 0px 0px 50px;
+}
+@media screen and (max-width: 900px) {
+
+.box{
+
+flex-wrap: wrap;
+}
+
+
+
+.row1{
+flex-direction: column;
+}
+.mediaa3{
+flex-direction: column;
+}
+
+.card1{
+width: 30%;
+position: absolute;
+left: 4%;
+width: 30%;
+    height: auto;
+   
+     background-color: aliceblue;
+    
+     clip-path: polygon(0% 0%, 75% 0%, 93% 51%, 75% 100%, 0% 100%);
+     transition: all 0.7s ease;
+}
+.card2{
+width: 30%;
+position: absolute;
+left: 25%;
+
+background-color: rgb(32, 31, 31);
+background-color: rgba(37, 37, 37, 1)
+;
+
+}
+.card3{
+width: 30%;
+position: absolute;
+left: 40%;
+}
+
+}
+@media screen and (max-width: 830px) {
+
+.box{
+
+.card1 , .card2, .card3 , .card4, .card5{
+width: 40%;
+}
+
+.card1{
+position: absolute;
+left: 4%;
+top: 0%;
+}
+.card2{
+position: absolute;
+
+left: 30%;
+top: 0%;
+
+}
+.card3{
+position: absolute;
+left: 60%;
+top: 0%;
+
+
+}
+.card4{
+position: absolute;
+width: 55%;
+
+left: 10%;
+transform: translateY(390px);
+}
+.card5{
+width: 55%;
+position: absolute;
+left: 45%;
+transform: translateY(390px);
+}
+}
+}
+
+.box-2 {
+    position: relative;
+  width: 100%;
+    display: flex;
+    justify-content: center!important;
+ 
+}
+
+
+.box-1 {
+width: 24%;
+    height: auto;
+   
+     background-color: aliceblue;
+     
+     
+     clip-path: polygon(75% 0%, 90% 52%, 75% 100%, 0% 100%, 9% 53%, 0% 0%);
+transition: all 0.7s ease;
+    }
+.card6{
+position: absolute;
+left: 4%;
+width: 24%;
+background-color: aliceblue;
+clip-path: polygon(0% 0%, 75% 0%, 93% 51%, 75% 100%, 0% 100%);
+transition: all 0.7s ease;
+}
+.card7{
+position: absolute;
+left: 22%;
+}
+.card8{
+position: absolute;
+left: 40%;
+}
+.card9{
+position: absolute;
+left: 58%;
+}
+.card10{
+position: absolute;
+left: 76%;
+width: 24%;
+background-color: aliceblue;
+clip-path: polygon(75% 0%, 76% 51%, 75% 100%, 0% 100%, 10% 53%, 0% 0%);
+
+}
+.imm{
+height: 250px!important;
+}
+
+.card1:hover{
+opacity: 0;
+}
+
+.card2:hover{
+opacity: 0;
+}
+.card3:hover{
+opacity: 0;
+}
+.card4:hover{
+opacity: 0;
+}
+.card5:hover{
+opacity: 0;
+}
+
+
+
+
+
